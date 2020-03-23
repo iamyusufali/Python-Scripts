@@ -54,13 +54,3 @@ Files = FileManager.glob(Location + Directory + '/**/*.js', recursive = True)
 # Add indents to every file
 for file in Files:
   addCorrectIndents(file)
-
-
-
-# import re
-# string = '{title:"Yusuf",name:"Ali"}'
-# RegEx = re.compile(r'({)([\w:"\',]+)(})')
-# result = RegEx.search(string)
-# change = RegEx.sub(r'{ \2 }', string)
-# print(result)
-# print(change)
